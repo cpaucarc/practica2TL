@@ -11,11 +11,11 @@ public class pregunta6 extends javax.swing.JFrame {
     ArrayList<String> vocabulario = new ArrayList<>();
     ArrayList<String> cadenasGeneradas = new ArrayList<>();
     Palabras palabras = new Palabras();
-    DefaultListModel listModel = new DefaultListModel();
+    DefaultListModel<String> listModel = new DefaultListModel();
 
     public pregunta6() {
         initComponents();
-        this.setSize(new Dimension(500, 480));
+        this.setSize(new Dimension(480, 500));
         jList1.setModel(listModel);
     }
 
@@ -72,6 +72,9 @@ public class pregunta6 extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jList1 = new javax.swing.JList<>();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(560, 430));
@@ -130,7 +133,7 @@ public class pregunta6 extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel2.setText("Elementos registrados en el vocabulario:");
+        jLabel2.setText("Elementos registrados en el vocabulario terminal:");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -150,6 +153,14 @@ public class pregunta6 extends javax.swing.JFrame {
         jPanel1.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, 400, 160));
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
+
+        jMenu1.setText("Pregunta 5");
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Pregunta 6");
+        jMenuBar1.add(jMenu2);
+
+        setJMenuBar(jMenuBar1);
 
         pack();
         setLocationRelativeTo(null);
@@ -216,6 +227,9 @@ public class pregunta6 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JList<String> jList1;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTextField txCantidadPalabras;
