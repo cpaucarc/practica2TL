@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 
-public class Ventana extends javax.swing.JFrame {
+public class pregunta6 extends javax.swing.JFrame {
 
     ArrayList<Integer> longitudesYaUsadas = new ArrayList<>();
     ArrayList<String> vocabulario = new ArrayList<>();
@@ -13,7 +13,7 @@ public class Ventana extends javax.swing.JFrame {
     Palabras palabras = new Palabras();
     DefaultListModel listModel = new DefaultListModel();
 
-    public Ventana() {
+    public pregunta6() {
         initComponents();
         this.setSize(new Dimension(500, 480));
         jList1.setModel(listModel);
@@ -199,12 +199,12 @@ public class Ventana extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Ventana.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pregunta6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(() -> {
-            new Ventana().setVisible(true);
+            new pregunta6().setVisible(true);
         });
     }
 
