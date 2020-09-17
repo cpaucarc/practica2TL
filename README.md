@@ -1,7 +1,9 @@
 # Practica 2 de Teoria de Lenguajes
 ## Generalidades
 **Curso: Teoria de Lenguajes.**
+
 **Docente:** Ing. Silva Zapata Miguel
+
 **Integrantes:**
 - Alva Sánchez Andher
 - Chávez Cabana Alexander
@@ -30,8 +32,15 @@ longitudes diferentes.
 
 ## **Solución**
 Este repositorio contiene el codigo fuente de la solucion, el cual esta escrito en Java.
+Contiene un menu con el cual se puede cambiar entre ventanas, sin que ninguno se cierre.
 ### Lenguaje y librerias necesarias
 **Lenguaje:** Java 8
 **IDE:** NetBeans 8.2
 **Librerias Externas:** Ninguna
 
+### Solucion al problema 5
+![interfaz_pregunta_5](https://user-images.githubusercontent.com/52868996/93536863-9c47d380-f90f-11ea-9a29-5d2b1434a4c1.png)
+*Interfaz de la solucion al problema N° 5*
+### Solucion al problema 6
+![interfaz_pregunta_6](https://user-images.githubusercontent.com/52868996/93537010-052f4b80-f910-11ea-8b92-207692154115.png)
+*Interfaz de la solucion al problema N° 6*
