@@ -40,7 +40,9 @@ Contiene un menu con el cual se puede cambiar entre ventanas, sin que ninguno se
 
 ### Solucion al problema 5
 ![interfaz_pregunta_5](https://user-images.githubusercontent.com/52868996/93536863-9c47d380-f90f-11ea-9a29-5d2b1434a4c1.png)
+
 *Interfaz de la solucion al problema N° 5*
 ### Solucion al problema 6
 ![interfaz_pregunta_6](https://user-images.githubusercontent.com/52868996/93537010-052f4b80-f910-11ea-8b92-207692154115.png)
+
 *Interfaz de la solucion al problema N° 6*
